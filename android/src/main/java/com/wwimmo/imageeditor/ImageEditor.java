@@ -16,16 +16,17 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.VectorDrawable;
 import android.media.ExifInterface;
 import android.os.Environment;
-import android.support.annotation.DrawableRes;
-import android.support.graphics.drawable.VectorDrawableCompat;
-import android.support.v7.content.res.AppCompatResources;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.view.ScaleGestureDetector;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
-import android.support.v4.view.GestureDetectorCompat;
+
+import androidx.annotation.DrawableRes;
+import androidx.appcompat.content.res.AppCompatResources;
+import androidx.core.view.GestureDetectorCompat;
+import androidx.vectordrawable.graphics.drawable.VectorDrawableCompat;
 
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.WritableMap;
